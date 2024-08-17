@@ -1,0 +1,204 @@
+.game {
+  padding: 40px 20px;
+}
+.game .score {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px #fff;
+  color: #fff;
+  gap: 8px;
+}
+.game .score p {
+  font-size: 17px;
+}
+.game .betbuttons {
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px #fff;
+  color: #fff;
+  gap: 10px;
+}
+.game .betbuttons button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  box-shadow: 0 0 2px #fff;
+}
+.game .betbuttons button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.game .betresult {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px #fff;
+  color: #fff;
+  gap: 8px;
+}
+
+.game .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.game .cards > div > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #1deb1d;
+  text-align: center;
+  padding: 10px;
+}
+
+.game .cards .cardwrapper {
+  position: relative;
+  perspective: 1000px;
+  width: 300px;
+  height: 432px;
+}
+.game .cards .cardwrapper .card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+.game .cards .cardwrapper .card.flipped {
+  transform: rotateY(180deg);
+}
+
+.game .cards .cardwrapper .cardback {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.game .cards .cardwrapper .cardback p {
+  font-size: 20px;
+  color: #111515;
+}
+.game .cards .cardfront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 8px;
+  backface-visibility: hidden;
+}
+.game .cards .cardfront .image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+}
+.game .cards .cardfront .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+.game .cards .cardfront .image h3 {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background: #282424;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+.game .cards .cardfront .generalinfo {
+  font-weight: 400;
+  font-size: 15px;
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  margin: 5px 0px;
+}
+/* .game .cards .cardfront .container {
+} */
+.game .cards .cardfront .container > h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 4px #000;
+  margin: 4px 0px;
+}
+.game .cards .cardfront .container .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+.game .cards .cardfront .container .content p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.game .cards .cardfront .container .content p .label {
+  font-weight: 500;
+}
+@media only screen and (max-width: 650px) {
+  .game {
+    padding: 40px 10px;
+  }
+  .game .cards .cardwrapper {
+    width: 250px;
+    height: 385px;
+  }
+  .game .cards .cardfront .image {
+    height: 160px;
+  }
+  .game .cards .cardfront .container .content p {
+    font-size: 14px;
+  }
+  .game .cards .cardfront .generalinfo {
+    font-size: 14px;
+  }
+  .game .cards > div > h1 {
+    font-size: 20px;
+  }
+  .game .cards .cardfront .image h3 {
+    font-size: 14px;
+  }
+  .game .cards {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 10px;
+  }
+}

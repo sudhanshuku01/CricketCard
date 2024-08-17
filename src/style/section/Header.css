@@ -1,0 +1,87 @@
+.header {
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .title {
+  display: flex;
+  align-items: center;
+}
+.header .title h1 {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.header .title h1 span {
+  color: #1deb1d;
+}
+.header .user {
+  color: #ffffff;
+  padding: 10px;
+}
+.header .user .points {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.header .user .username {
+  text-transform: uppercase;
+}
+.gameover {
+  position: fixed;
+  padding: 40px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.gameover .data {
+  position: relative;
+  margin: 20px 0px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 4px #fff;
+  color: #fff;
+  height: 200px;
+}
+.gameover .data .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+.gameover .data > h1 {
+  font-size: 24px;
+  margin: 20px 0px;
+  color: #1deb1d;
+  font-weight: 700;
+}
+.gameover .data .item p {
+  font-size: 18px;
+}
+.gameover .data button {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 33px;
+}
+@media only screen and (max-width: 650px) {
+  .gameover {
+    padding: 40px 10px;
+  }
+}

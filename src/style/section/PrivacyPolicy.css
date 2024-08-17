@@ -1,0 +1,45 @@
+.privacypolicy {
+  padding: 40px 20px;
+  color: #fff;
+}
+.privacypolicy h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1deb1d;
+}
+.privacypolicy h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #1deb1d;
+}
+.privacypolicy p {
+  line-height: 22px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.privacypolicy ol {
+  padding: 10px;
+}
+.privacypolicy ul li {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.privacypolicy ul li span {
+  font-weight: 600;
+}
+.privacypolicy .link {
+  margin-top: 15px;
+}
+
+.privacypolicy .link a {
+  font-size: 28px;
+  color: #fff;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+.privacypolicy .link a:hover {
+  color: #1deb1d;
+}

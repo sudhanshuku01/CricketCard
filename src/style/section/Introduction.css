@@ -1,0 +1,32 @@
+.introduction {
+  padding: 40px 20px;
+  color: #fff;
+}
+.introduction h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1deb1d;
+}
+.introduction h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #1deb1d;
+}
+.introduction p {
+  line-height: 22px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.introduction ol {
+  padding: 10px;
+}
+.introduction ol li {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.introduction ol li span {
+  font-weight: 600;
+}

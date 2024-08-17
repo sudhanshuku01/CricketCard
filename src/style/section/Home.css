@@ -1,0 +1,161 @@
+.home {
+  padding: 40px 20px;
+}
+.home-register {
+  margin: 80px 0px;
+}
+.home-register form {
+  width: 400px;
+  margin: auto;
+}
+.home-register form label {
+  display: block;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.home-register form input {
+  font-family: "Work Sans", sans-serif;
+  outline: none;
+  border: 2px solid #fda666;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 300;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 30px;
+  width: 100%;
+}
+.home-register form input:focus {
+  border: 2px solid #ffffff;
+}
+.home-register form button {
+  display: block;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  background: #8b8b8b;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.home-register form button:hover {
+  background-color: #ffffff;
+  color: #8b8b8b;
+}
+
+.home-onlineusers {
+  width: 400px;
+  margin: auto;
+}
+
+.home-onlineusers h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1deb1d;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.home-onlineusers ul {
+  list-style-type: none;
+  padding: 0;
+}  
+
+.home-onlineusers li {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 2px #fff;
+}
+
+.home-onlineusers p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.home-onlineusers button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.home-onlineusers button.in-match {
+  background-color: rgba(255, 165, 0, 0.5); /* Orange */
+}
+
+.home-onlineusers button.game-request {
+  background-color: rgba(76, 175, 80, 0.5); /* Green */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.home-onlineusers button.you {
+  background-color: rgba(33, 150, 243, 0.5); /* Blue */
+}
+
+.home-onlineusers button:hover.game-request {
+  background-color: rgba(76, 175, 80, 0.8); /* Green */
+}
+
+.home-gamerequest {
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #fff;
+  z-index: 1000;
+  width: 80%;
+}
+.home-gamerequest p {
+  color: #000000;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.home-gamerequest button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(76, 175, 80, 0.7);
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  margin-right: 20px;
+}
+.home-gamerequest button:hover {
+  background-color: rgba(76, 175, 80, 0.9); /* Green */
+  cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  .home-register form {
+    width: 100%;
+  }
+  .home-onlineusers {
+    width: 100%;
+  }
+}
+

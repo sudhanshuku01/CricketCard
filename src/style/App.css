@@ -1,0 +1,28 @@
+@import url(./section/Home.css);
+@import url(./section/Game.css);
+@import url(./section/Header.css);
+@import url(./section/Footer.css);
+@import url(./section/Introduction.css);
+@import url(./section/About.css);
+@import url(./section/PrivacyPolicy.css);
+
+/* font-family: "Roboto", sans-serif;
+font-family: "Titan One", sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: "Roboto Slab", serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif;
+
+font-family: "Alegreya", serif; 
+font-family: 'Raleway', sans-serif;
+font-family: "Ultra", serif;
+font-family: "Catamaran", sans-serif;
+font-family: "Playfair Display", serif;
+font-family: "Roboto Mono", monospace;
+font-family: 'Oswald';
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titan+One&family=Ultra&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
